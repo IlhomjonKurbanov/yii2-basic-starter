@@ -37,6 +37,15 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
+        'view' => [
+            'theme' => [
+                'basePath' => '@app/themes/default',
+                'baseUrl' => '@web/themes/default',
+                'pathMap' => [
+                    '@app/views' => '@app/themes/default',
+                ],
+            ],
+        ],
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
