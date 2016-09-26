@@ -42,7 +42,10 @@ $config = [
                 'basePath' => '@app/themes/default',
                 'baseUrl' => '@web/themes/default',
                 'pathMap' => [
-                    '@app/views' => '@app/themes/default',
+                    '@app/views' => [
+                        '@app/themes/default/views',
+                    ],
+                    '@app/modules' => '@app/themes/default/modules',
                 ],
             ],
         ],
