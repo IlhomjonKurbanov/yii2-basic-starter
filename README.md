@@ -5,7 +5,7 @@ WHAT'S SPECIAL
 --------------
 
 - Boost composer-asset-plugin update speed, more detail [here](http://www.yiiframework.com/wiki/843/boost-composer-asset-plugin-update-speed/)
-- Create and use environments
+- Create and use environments, more detail [here](https://www.my-yii.com/learn/view-episode/how-to-create-and-use-environments-in-yii-2-basic-application-template)
 - Include required dependencies
 
   ```
