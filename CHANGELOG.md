@@ -1,13 +1,13 @@
-eDOCS Change Log
-================
+Change Log
+==========
 
-Version 1.0.2 under development
+Version 1.0.1 under development
 -----------------------
 
-- Chg #3998: thay đổi namespace `hoksilato` sang `zoco` (cangtt)
+- Chg #3998: ... (hoksilato)
 - Bug #3724: ...
 - Enh: ...
 
-Version 1.0.0 January 13, 2016
+Version 1.0.0 September 26, 2016
 ------------------------------
 - Bug #1191: ...
