@@ -98,3 +98,23 @@ Run below command for creating database tables:
 ./yii migrate/up --migrationPath=@vendor/dektrium/yii2-user/migrations
 ./yii migrate
 ```
+
+### I18N
+
+Adjust the parameters to fit your needs at `messages/config.php`. Pay special attention to:
+
+- `languages`: an array representing what languages your app should be translated to;
+- `messagePath`: path where to store message files, which should match the `i18n`'s `basePath` parameter stated in config.
+
+You may also use `./yii message/config` command to dynamically generate configuration file with specified options via cli. For example, you can set `languages` and `messagePath` parameters like the following:
+
+```
+./yii message/config --languages=de,ja --messagePath=messages messages/config.php
+```
+
+Once you're done with the configuration file you can finally extract your messages with the command:
+
+```
+./yii message messages/config.php
+```
+
